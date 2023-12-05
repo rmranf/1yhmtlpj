@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Feedback</title>
+	<link rel="stylesheet" type="text/css" href="my.css">
+	<script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+</head>
+<body>
+	<section></section>
+	<div class="container">
+		<form>
+			<h1><span style="color: white;">Feedback</span></h1>
+			<div class="id">
+				<input type="text" placeholder="이름">
+				<i class="far fa-user"></i>
+			</div>
+			<div class="id">
+				<input type="email" placeholder="이메일">
+				<i class="far fa-envelope"></i></div>
+				<div>
+				<textarea cols="15" rows="5" placeholder="의견을 적어주세요"></textarea></div>
+			
+			<button>send</button>
+		</form>
+	</div>
+
+
+</body>
+</html>	

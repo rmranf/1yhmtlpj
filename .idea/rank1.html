@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TOP&lt;GAME&gt;</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">	
+<link href="rank1.css" rel="stylesheet">
+<style>
+.no1 {
+  background-color: rgba(237, 255, 41, 0.986);
+}
+.no2  {
+  background-color: rgb(217, 215, 215);
+}
+.no3 {
+  background-color: rgba(236, 103, 103, 0.872);
+}
+
+
+a {
+  color: black;
+  text-decoration-line: none;
+}
+body {
+  background-color: rgba(218, 255, 235, 0.51);
+}
+  * {margin:0;padding:0;}
+.bannner {position:relative;display:inline-block;}
+.bannner img {max-width:100%;}
+.bannner span.text {position:absolute;top:50%;left:0;transform:translateY(-50%);display:none;width:100%;font-size:70px;color:#fff;font-weight:900;text-align:center;}
+.bannner::before, .bannner::after{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);transition:all .8s;-webkit-transition:all .8s;}
+
+/* 마우스가 올라가면 반응하는 소스 */
+.bannner:hover span.text {display:block;}
+.bannner:hover::before {width:95%;} /* 화면에 따라서 정확한 사각형을 위한 값을 줘야하는 부분 */
+.bannner:hover::after {height:95%;} /* 화면에 따라서 정확한 사각형을 위한 값을 줘야하는 부분 */
+</style>
+</head>
+<body>
+  <script type="text/javascript">alert('컴퓨터랭킹페이지입니다.')</script>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="main.html">TOP&lt;GAME&gt;</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rank1.html">컴퓨터 게임</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="rank2.html">모바일 게임</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div>
+  <div class="section">
+  <input type="radio" name="slide" id="slide01" checked>
+  <input type="radio" name="slide" id="slide02">
+  <input type="radio" name="slide" id="slide03">
+  <div class="slidewrap">
+    
+    <ul class="slidelist">
+      <!-- 슬라이드 영역 -->
+      <li class="slideitem bannner" >
+        <a href="lol.html">
+          <img src="../../../OneDrive/바탕%20화면/대학교/대학/html%20프로젝트%20파일/2201347_황수호%20프로젝트%20최종/media/lol.jpg.jpg"><span class="text" style="color: gold; background-color: white;">legends of legends</span>
+        </a>
+      </li>
+      <li class="slideitem bannner">
+        <a href="FIFA.html">
+          <img src="../../../OneDrive/바탕%20화면/대학교/대학/html%20프로젝트%20파일/2201347_황수호%20프로젝트%20최종/media/fifa.jpg"><span class="text" style="color: darkgreen; background-color: white;">FIFA ONLINE4</span>
+        </a>
+      </li>
+      <li class="slideitem bannner">
+        <a href="lostark.html"> 
+          <img src="../../../OneDrive/바탕%20화면/대학교/대학/html%20프로젝트%20파일/2201347_황수호%20프로젝트%20최종/media/LOSTARK.jpg">
+          <span class="text" style="color: rgba(255, 217, 0, 0.479); background-color: white;">LOSTARK</span>
+        </a>
+      </li>
+
+      <div class="slide-control">
+        <div>
+          <label for="slide03" class="left"></label>
+          <label for="slide02" class="right"></label>
+        </div>
+        <div>
+          <label for="slide01" class="left"></label>
+          <label for="slide03" class="right"></label>
+        </div>
+        <div>
+          <label for="slide02" class="left"></label>
+          <label for="slide01" class="right"></label>
+        </div>
+      </div>
+
+    </ul>
+    <ul class="slide-pagelist">
+      <li><label for="slide01"></label></li>
+      <li><label for="slide02"></label></li>
+      <li><label for="slide03"></label></li>
+    </ul>
+  </div>
+<div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">게임</th>
+        <th scope="col">회사</th>
+        <th scope="col">장르</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="no1" id="#lol">
+        <th scope="row">1</th>
+        <td><a href="lol.html">리그오브레전드</a></td>
+        <td>라이엇게임즈</td>
+        <td>MOBA</td>
+      </tr>
+      <tr class="no2" id="#피파">
+        <th scope="row">2</th>
+      <td> <a href="FIFA.html">피파온라인4</td></a>
+        <td>넥슨코리아</td>
+        <td>스포츠</td>
+      </tr>
+      <tr  class="no3">
+        <th scope="row">3</th>
+        <td><a href="lostark.html">로스트아크</a></td>
+        <td>스마일게이트</td>
+        <td>MMO RPG</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><a href="mp.html">메이플스토리</a></td>
+        <td>넥슨코리아</td>
+        <td>MMO RPG</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><a href="dp.html">던전앤파이터</a></td>
+        <td>넥슨코리아</td>
+        <td>RPG</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  
+</div>
+</div>
+ <script defer src="js/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>	
